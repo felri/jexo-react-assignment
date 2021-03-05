@@ -1,16 +1,16 @@
 import './style.css';
 import Btn from 'components/btn';
 import Picture from 'components/picture';
-import Information from 'components/Information';
+import Information from 'components/information';
 
-function Home() {
+function Home({ user }) {
   return (
     <div className='container-card'>
-      <Picture />
-      <Information />
+      <Picture username={user.username} />
+      <Information user={user} />
       <div>
-        <Btn icon={favoriteIcon} handleClick={} />
-        <Btn icon={deleteIcon} handleClick={} />
+        {/* <Btn icon={favoriteIcon} handleClick={} />
+        <Btn icon={deleteIcon} handleClick={} /> */}
       </div>
     </div>
   );

@@ -1,7 +1,14 @@
 import './style.css';
 
-function Home() {
-  return <div className='container-home'>oi dani</div>;
+function Picture({ username }) {
+  return (
+    <div className='container-home'>
+      <img
+        src={`https://avatars.dicebear.com/v2/avataaars/${username}.svg?options[mood][]=happy`}
+        alt='avatar'
+      />
+    </div>
+  );
 }
 
-export default Home;
+export default Picture;
