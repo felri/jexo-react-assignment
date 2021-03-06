@@ -1,4 +1,4 @@
-import './style.css';
+import './style.scss';
 
 function Name({ name }) {
   return <div className='name'>{name}</div>;
@@ -16,7 +16,7 @@ function Website({ website }) {
   return <div className='website'>{website}</div>;
 }
 
-function information({ user }) {
+function Information({ user }) {
   return (
     <div className='container-information'>
       <Name name={user.name} />
@@ -27,4 +27,4 @@ function information({ user }) {
   );
 }
 
-export default information;
+export default Information;

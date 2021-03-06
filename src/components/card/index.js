@@ -1,4 +1,4 @@
-import './style.css';
+import './style.scss';
 import Btn from 'components/btn';
 import Picture from 'components/picture';
 import Information from 'components/information';

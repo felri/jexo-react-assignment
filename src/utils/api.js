@@ -1,6 +1,6 @@
 async function getUsers() {
   try {
-    const result = await fetch('https://jsonplaceholder.typicode.com/users', {
+    const result = await fetch(process.env.REACT_APP_DEFAULT_URL + '/users', {
       method: 'get',
     });
     const data = await result.json();

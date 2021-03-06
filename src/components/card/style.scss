@@ -1,0 +1,11 @@
+.container-card {
+  width: 100%;
+  max-width: 258px;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border: 1px solid rgb(221, 221, 221);
+  margin: 0px 20px 20px 20px;
+}

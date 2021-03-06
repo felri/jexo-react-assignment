@@ -1,4 +1,4 @@
-import './style.css';
+import './style.scss';
 import api from 'utils/api';
 import { useState, useEffect } from 'react';
 import Card from 'components/card';
