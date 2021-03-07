@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/jexo-react-assignment/static/css/main.f652d94d.chunk.css",
+    "main.js": "/jexo-react-assignment/static/js/main.22d4ef75.chunk.js",
+    "main.js.map": "/jexo-react-assignment/static/js/main.22d4ef75.chunk.js.map",
+    "runtime-main.js": "/jexo-react-assignment/static/js/runtime-main.6e38a562.js",
+    "runtime-main.js.map": "/jexo-react-assignment/static/js/runtime-main.6e38a562.js.map",
+    "static/js/2.848850ec.chunk.js": "/jexo-react-assignment/static/js/2.848850ec.chunk.js",
+    "static/js/2.848850ec.chunk.js.map": "/jexo-react-assignment/static/js/2.848850ec.chunk.js.map",
+    "static/js/3.6e8e198d.chunk.js": "/jexo-react-assignment/static/js/3.6e8e198d.chunk.js",
+    "static/js/3.6e8e198d.chunk.js.map": "/jexo-react-assignment/static/js/3.6e8e198d.chunk.js.map",
+    "index.html": "/jexo-react-assignment/index.html",
+    "static/css/main.f652d94d.chunk.css.map": "/jexo-react-assignment/static/css/main.f652d94d.chunk.css.map",
+    "static/js/2.848850ec.chunk.js.LICENSE.txt": "/jexo-react-assignment/static/js/2.848850ec.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6e38a562.js",
+    "static/js/2.848850ec.chunk.js",
+    "static/css/main.f652d94d.chunk.css",
+    "static/js/main.22d4ef75.chunk.js"
+  ]
+}
