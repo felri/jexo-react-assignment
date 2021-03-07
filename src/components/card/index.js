@@ -7,7 +7,7 @@ import StarIcon from '@atlaskit/icon/glyph/star';
 import StarFilledIcon from '@atlaskit/icon/glyph/star-filled';
 import TrashIcon from '@atlaskit/icon/glyph/trash';
 
-function Home({ user, onLike, onDelete }) {
+function Card({ user, onLike, onDelete }) {
   return (
     <div className='container-card'>
       <Picture username={user.username} />
@@ -24,4 +24,4 @@ function Home({ user, onLike, onDelete }) {
   );
 }
 
-export default Home;
+export default Card;
