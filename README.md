@@ -1,5 +1,7 @@
 # Jexo React assignment
 
+Live version: https://felri.github.io/jexo-react-assignment/
+
 ## Available Scripts
 
 In the project directory, you can run:
