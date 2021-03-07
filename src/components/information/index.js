@@ -1,19 +1,41 @@
 import './style.scss';
+import EmailIcon from '@atlaskit/icon/glyph/email';
+import VidHangUpIcon from '@atlaskit/icon/glyph/vid-hang-up';
+import HomeCircleIcon from '@atlaskit/icon/glyph/home-circle';
 
 function Name({ name }) {
-  return <div className='name'>{name}</div>;
+  return <h3 className='name'>{name}</h3>;
 }
 
 function Email({ email }) {
-  return <div className='email'>{email}</div>;
+  return (
+    <div className='email'>
+      <EmailIcon />
+      <span>{email}</span>
+    </div>
+  );
 }
 
 function Phone({ phone }) {
-  return <div className='phone'>{phone}</div>;
+  return (
+    <div className='phone'>
+      <VidHangUpIcon />
+      <span>{phone}</span>
+    </div>
+  );
 }
 
 function Website({ website }) {
-  return <div className='website'>{website}</div>;
+  return (
+    <div className='website'>
+      <HomeCircleIcon />
+      <span>
+        <a href={website} target='_blank' rel='noreferrer'>
+          http://{website}
+        </a>
+      </span>
+    </div>
+  );
 }
 
 function Information({ user }) {

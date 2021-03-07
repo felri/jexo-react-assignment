@@ -3,3 +3,19 @@
   flex-direction: column;
   padding: 20px;
 }
+
+.name {
+  margin: 0;
+}
+
+.email,
+.website,
+.phone,
+.name {
+  display: flex;
+  align-items: center;
+}
+
+.website a {
+  text-decoration: none;
+}

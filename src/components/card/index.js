@@ -1,16 +1,24 @@
 import './style.scss';
-import Btn from 'components/btn';
+import Button from '@atlaskit/button';
 import Picture from 'components/picture';
 import Information from 'components/information';
 
-function Home({ user }) {
+import StarIcon from '@atlaskit/icon/glyph/star';
+import StarFilledIcon from '@atlaskit/icon/glyph/star-filled';
+import TrashIcon from '@atlaskit/icon/glyph/trash';
+
+function Home({ user, onLike, onDelete }) {
   return (
     <div className='container-card'>
       <Picture username={user.username} />
       <Information user={user} />
-      <div>
-        {/* <Btn icon={favoriteIcon} handleClick={} />
-        <Btn icon={deleteIcon} handleClick={} /> */}
+      <div className='container-btns'>
+        <Button shouldFitContainer onClick={onLike}>
+          {user.liked ? <StarFilledIcon /> : <StarIcon />}
+        </Button>
+        <Button shouldFitContainer onClick={onDelete}>
+          <TrashIcon />
+        </Button>
       </div>
     </div>
   );
